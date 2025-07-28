@@ -1,0 +1,14 @@
+print("Gib dein Passwort ein:")
+let pw = input
+
+print("Passwort speichern...")
+let passwort = pw
+
+print("Bitte Passwort zur Bestätigung eingeben:")
+let eingabe = input
+
+if eingabe == passwort {
+    print("Passwort korrekt, Zugang erlaubt!")
+} else {
+    print("Falsches Passwort!")
+}
